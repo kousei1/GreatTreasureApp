@@ -10,6 +10,6 @@ College of Arts and Sciences
 ITE Department
 
 # Course:
-Bachelor of Science in Information Technology
+* Bachelor of Science in Information Technology
 
 3C
