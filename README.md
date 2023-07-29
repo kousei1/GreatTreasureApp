@@ -16,3 +16,9 @@ ITE Department
 
 # Adviser
 * Jefferson A. Costales
+
+# Developer
+* Fuentiblanca Julius
+* Luterio Jenny
+* Gulles James
+* Gime Neil
