@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:textAlignment="viewEnd"
+    tools:context=".HistoryTreasureActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bungee_shade"
+            android:paddingLeft="20dp"
+            android:paddingTop="20px"
+            android:text="Great Treasure"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="540dp"
+            android:layout_margin="30dp"
+            android:background="@drawable/custom_edittext"
+            android:gravity="center"
+            android:padding="30dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#BAFFFFFF"
+                    android:padding="15dp"
+                    android:paddingLeft="30dp"
+                    android:text="Treasure History"
+                    android:textAlignment="center"
+                    android:textColor="#356DCD"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/datePickerButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:backgroundTint="#356DCD"
+                        android:drawableLeft="@drawable/baseline_calendar_month_24"
+                        android:text="Date" />
+
+
+                    <TextView
+                        android:id="@+id/startDatetxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="" />
+
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/searchtxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:padding="8dp"
+                    android:background="@drawable/custom_edittext"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:drawablePadding="10dp"
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@drawable/baseline_search_24"
+                    android:hint="Search..." />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:orientation="vertical">
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TableLayout
+                                    android:id="@+id/historytrans"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <!--dATE-->
+                                    <TableRow
+                                        android:id="@+id/hdate"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:id="@+id/hhdatentime"
+                                            android:visibility="gone"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+                                    </TableRow>
+                                    <!--Title-->
+                                    <TableRow
+                                        android:id="@+id/headertitle"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                        <TextView
+                                            android:id="@+id/hhtitle"
+                                            android:visibility="gone"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+
+                                        <TextView
+                                            android:id="@+id/hhAmount"
+                                            android:visibility="gone"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent" />
+
+
+
+                                    </TableRow>
+
+                                    <!--Action-->
+                                    <TableRow
+                                        android:id="@+id/haction"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                        <TextView
+                                            android:id="@+id/deleteR"
+                                            android:visibility="gone"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"/>
+
+                                        <TextView
+                                            android:id="@+id/viewdetails"
+                                            android:visibility="gone"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"/>
+                                    </TableRow>
+
+
+                                </TableLayout>
+
+                            </LinearLayout>
+                        </ScrollView>
+
+
+                    </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/backbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+
+            android:backgroundTint="#356DCD"
+            android:text="back"
+            app:cornerRadius="20dp" />
+
+
+    </LinearLayout>
+</RelativeLayout>

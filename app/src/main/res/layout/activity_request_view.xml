@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".RequestView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20px"
+            android:paddingTop="8dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:text="Request View"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="3.4in"
+            android:layout_margin="25dp"
+            android:background="@drawable/custom_edittext"
+            android:gravity="center"
+            android:padding="30dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp">
+
+            <EditText
+                android:id="@+id/searchnumbertxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/baseline_search_24"
+                android:drawablePadding="10dp"
+                android:padding="8dp"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginTop="12dp"
+                android:maxLength="11"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter Number" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:id="@+id/reqlist"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginHorizontal="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TableRow
+                                android:id="@+id/idreq"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:id="@+id/viewdate"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:padding="15dp"
+                                    android:textColor="#FFFFFF"
+                                    android:textStyle="bold" />
+                                <TableRow
+                                    android:id="@+id/rbalance"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/contactview"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginHorizontal="5dp"
+                                        android:gravity="center|left"
+                                        android:padding="15dp"
+                                        android:textColor="#FFFBFB"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/reqbal"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:gravity="center|left"
+                                        android:padding="15dp"
+                                        android:textColor="#FFFFFF"
+                                        android:textStyle="bold" />
+
+
+
+                                </TableRow>
+
+                                <TableRow
+                                    android:id="@+id/actionrow"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/actionview"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:padding="15dp"
+                                        android:textColor="#FFFFFF"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/decline"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:padding="15dp" />
+                                </TableRow>
+
+                            </TableRow>
+
+
+                        </ScrollView>
+                    </LinearLayout>
+
+
+                </TableLayout>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/cncl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginTop="3dp"
+            android:backgroundTint="#356DCD"
+            android:text="exit" />
+
+
+    </LinearLayout>
+</RelativeLayout>
