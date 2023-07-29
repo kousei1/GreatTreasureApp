@@ -1,5 +1,3 @@
-# GreatTreasureApp
-
 # School Name:
 Eulogio "Amang" Rodriguez Insitute of Science and Technology
 
@@ -13,3 +11,8 @@ ITE Department
 * Bachelor of Science in Information Technology
 
 3C
+
+# Description
+
+#Adviser
+* Jefferson A. Costales
