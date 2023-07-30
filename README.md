@@ -24,6 +24,9 @@ Welcome to GreatTreasure, your ultimate key to unlocking a world of financial ab
 **7. Account**
 ![image](https://github.com/kousei1/GreatTreasureApp/assets/98931394/ec981b68-b15a-4a1e-91d1-2865539a410e)
 
+# Demo Video
+
+https://drive.google.com/drive/folders/1OQqOq7SK85Ws5vZLqdZ5PVLP7u0ccPrZ?fbclid=IwAR3O2hibqqbz_7gM9EQCzpQxnYsycnat7Nu3pAEW3qpPj9jCb37ym2BZYzU
 
 
 # School Name:
