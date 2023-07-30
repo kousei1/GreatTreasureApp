@@ -1,8 +1,8 @@
 # GreatTreasureApp
 ![image](https://github.com/kousei1/GreatTreasureApp/assets/98931394/cd9a72ed-0938-40a0-8bf9-68915d1bc675)
- # Login Form
+ *Login Form*
 
-** School Name:
+School Name:
 Eulogio "Amang" Rodriguez Insitute of Science and Technology
 
 Nagtahan, Sampaloc, Manila, Philippines
