@@ -16,6 +16,14 @@
 **5. Request Loan**
 ![image](https://github.com/kousei1/GreatTreasureApp/assets/98931394/4e4696f8-49a2-4dda-8f4f-4eedbf3e2369)
 
+**6. Request View**
+![image](https://github.com/kousei1/GreatTreasureApp/assets/98931394/0d210a69-5558-46c1-82b5-3a0769958cce)
+
+**7. Account**
+![image](https://github.com/kousei1/GreatTreasureApp/assets/98931394/ec981b68-b15a-4a1e-91d1-2865539a410e)
+
+
+
 # School Name:
 Eulogio "Amang" Rodriguez Insitute of Science and Technology
 
