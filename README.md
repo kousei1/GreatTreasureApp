@@ -1,6 +1,7 @@
 # GreatTreasureApp
-![image](https://github.com/kousei1/GreatTreasureApp/assets/98931394/cd9a72ed-0938-40a0-8bf9-68915d1bc675)
- **Login Form**
+![image](https://github.com/kousei1/GreatTreasureApp/assets/98931394/f65d812e-535c-474b-93dd-aac5e2d134f7)
+**1.** **Send** **Money**
+![image](https://github.com/kousei1/GreatTreasureApp/assets/98931394/53843f2f-6911-42b6-88f3-786ccc8863dc)
 
 # School Name:
 Eulogio "Amang" Rodriguez Insitute of Science and Technology
