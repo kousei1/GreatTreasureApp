@@ -1,6 +1,8 @@
 # GreatTreasureApp
 ![image](https://github.com/kousei1/GreatTreasureApp/assets/98931394/f65d812e-535c-474b-93dd-aac5e2d134f7)
 
+Welcome to GreatTreasure, your ultimate key to unlocking a world of financial abundance and prosperity. We understand that your financial goals and aspirations are unique, and that's why GreatTreasure is designed to empower you on your journey to financial success. With a focus on user-friendliness and innovative features, GreatTreasure is the banking app that will help you make the most of your hard-earned money.
+
 **1. Send Money**
 ![image](https://github.com/kousei1/GreatTreasureApp/assets/98931394/53843f2f-6911-42b6-88f3-786ccc8863dc)
 
