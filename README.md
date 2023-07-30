@@ -12,12 +12,15 @@ ITE Department
 
 3C
 
-# Description
+# GreatTreasureApp
+![image](https://github.com/kousei1/GreatTreasureApp/assets/98931394/cd9a72ed-0938-40a0-8bf9-68915d1bc675)
+
+
 
 # Adviser
 * Jefferson A. Costales
 
-# Developer
+# Researcher/Developer
 * Fuentiblanca Julius
 * Luterio Jenny
 * Gulles James
